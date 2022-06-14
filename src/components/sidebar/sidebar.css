@@ -1,0 +1,21 @@
+.sidebar-header {
+    color: #D5EAF8;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #114466;
+    height: 45px;
+}
+
+.sidebar-option {
+    color: #D5EAF8;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #155580;
+    height: 15px;
+}
+
+.sidebar-icon {
+    padding: 0px 10px;
+}

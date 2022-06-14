@@ -1,0 +1,85 @@
+.album-template {
+    display: flex;
+    flex-direction: column;
+
+}
+
+* {
+    font-family: futuraPT, "Helvetica Neue", helvetica, arial, sans-serif
+    futuraPT,Helvetica Neue,helvetica,arial,sans-serif;
+}
+
+
+//=========================
+//        HEADER
+//=========================
+
+.albuminfo-body {
+    display: flex;
+}
+
+.albumtemp-header {
+    display: flex;
+    margin: 36px;
+}
+
+.album-artwork {
+    height: 300px;
+    width: 300px;
+}
+
+.album-title {
+    color: #2184c6;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.album-artist {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.album-label,
+.album-genre,
+.album-bitrate {
+    margin: 0;
+}
+
+.albumtemp-art {
+    display: flex;
+}
+
+.album-info {
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+
+
+//========================
+//        ACTIONS
+//========================
+
+.actions-body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.album-price {
+    color: #2184c6;
+}
+
+.album-buy-button {
+    padding: 5px 5px;
+    background-color: #0b2d43;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+}
