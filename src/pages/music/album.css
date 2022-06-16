@@ -30,7 +30,7 @@
 
 .album-title {
     color: #2184c6;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 700;
     margin: 0;
 }
@@ -39,6 +39,7 @@
     font-weight: bold;
     margin: 0;
     padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 15px;
 }
 
