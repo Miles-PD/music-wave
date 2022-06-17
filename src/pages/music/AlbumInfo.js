@@ -1,6 +1,7 @@
 import "./album.css"
 
-const AlbumInfo = ({ title, artist, label, genre, bitrate, numtracks, minutes, advisory }) => {
+
+const AlbumInfo = ({ title, artist, label, genre, bitrate, numtracks, minutes, advisory, advisoryimg }) => {
     return (
         <div className="albuminfo-body">
             <p className="album-title">
@@ -25,7 +26,7 @@ const AlbumInfo = ({ title, artist, label, genre, bitrate, numtracks, minutes, a
             </h4>
 
             <div className="album-advisory">
-                {advisory ? <p>advisory</p> : null}
+                {advisory ? <img src={advisoryimg} alt="parental-advisory" /> : null}
             </div>
 
         </div>

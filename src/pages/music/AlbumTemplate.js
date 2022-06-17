@@ -20,7 +20,7 @@ const AlbumTemplate = () => {
                                 bitrate={"44.1kHz · 24bit"}
                                 numtracks={"20"}
                                 minutes={"114"}
-                                advisory={true}/>
+                                advisory={true} />
                 </div>
                 <div className="albumtemp-header-right">
                     <AlbumActions price={"$24.94"}/>
